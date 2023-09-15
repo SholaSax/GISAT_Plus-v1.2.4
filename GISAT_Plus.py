@@ -39,7 +39,7 @@ reset_image = ck.CTkImage(light_image=Image.open(os.path.join(image_path, "reset
 
 app = ck.CTk()
 app.geometry("450x970+400+2")
-app.title("GISAT Plus v1.2.4")
+app.title("GISAT Plus v1.3.5")
 app.iconbitmap("images/cihp.ico")
 app.resizable(False, True)
 
@@ -330,6 +330,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -371,6 +373,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -414,6 +418,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -455,6 +461,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -496,6 +504,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -537,6 +547,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -580,6 +592,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -621,6 +635,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -662,6 +678,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -704,6 +722,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -746,6 +766,8 @@ def run_main_app(event):
                 val_linelist_gen_date1 = datetime.combine(val_linelist_gen_date, my_time)
                 val_linelist_gen_date2 = val_linelist_gen_date1 + timedelta(hours=23, minutes=59, seconds=57)
                 # print(val_linelist_gen_date2)
+                CIHP_listoffacility = "CALL CIHP_listoffacility();"
+                my_cursor2.execute(CIHP_listoffacility)
                 fac_name = "SELECT `property_value` FROM `global_property` WHERE `property`= 'Facility_Name'"
                 run_fac_name = my_cursor2.execute(fac_name)
                 result_fac = my_cursor2.fetchone()[0]
@@ -859,7 +881,7 @@ def run_main_app(event):
                            fg='#ffffff')
                 l2.pack()
                 topwindow2.destroy()
-                truncate_linelist_details()
+                #truncate_linelist_details()
             else:
                 messagebox.showinfo("Oops!",
                                     "Oops!!! Tryna get it right ;)")
@@ -899,7 +921,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -986,7 +1008,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1067,7 +1089,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1148,7 +1170,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1229,7 +1251,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1310,7 +1332,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1391,7 +1413,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1472,7 +1494,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1553,7 +1575,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1633,7 +1655,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1714,7 +1736,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -1795,7 +1817,7 @@ def run_main_app(event):
             engine = create_engine('mysql+pymysql://root:Admin123@localhost:3306/validation_linelist')
             conn = engine.connect()
             sql_mode_null = "SET SESSION sql_mode = '';"
-            result = conn.execute(sql_mode_null)
+            conn.execute(sql_mode_null)
 
             path = open_file
             files = os.listdir(path)
@@ -2324,7 +2346,9 @@ def run_main_app(event):
                                  f"`linelist` WHERE (DATE_ADD(DATE_ADD(`LastPickupDate`, INTERVAL `DaysOfARVRefill` " \
                                  f"DAY), INTERVAL 28 DAY)) < '{val_date2}%' AND `CurrentARTStatus_28Days`='Active' "
         run_script9 = my_cursor.execute(altered_list_parameter)
-        count_altered_list_parameter = len(my_cursor.fetchall())
+        count_altered_list_parameter = (my_cursor.fetchall())
+        fac = (my_cursor.fetchall())
+        print(fac)
 
         #######################################################################################################################
 
@@ -2434,13 +2458,22 @@ def run_main_app(event):
                 + use_date + ".xlsx", sheet_name='OTZ_Line_List_Merged', index=False)
 
         elif check_which_list == 'Mobile HTS Tracker':
-            df = pd.read_sql(mysql_script.select_all_merge_otz_linelist, mydb)
+            df = pd.read_sql(mysql_script.select_all_merge_mobile_hts_tracker, mydb)
             df.head()
             open_file = filedialog.askdirectory()
             path = open_file
             df.to_excel(
                 f"{path}\\Mobile_HTS_Tracker_" + ip_box.get() + "_" + state_box.get() + "_" + surge_box.get() + "_" + lga_box.get() + "_"
                 + use_date + ".xlsx", sheet_name='Mobile_HTS_Tracker_Merged', index=False)
+
+        elif check_which_list == 'PBS Line List':
+            df = pd.read_sql(mysql_script.select_all_merge_pbs_linelist, mydb)
+            df.head()
+            open_file = filedialog.askdirectory()
+            path = open_file
+            df.to_excel(
+                f"{path}\\PBS_Line_List_" + ip_box.get() + "_" + state_box.get() + "_" + surge_box.get() + "_" + lga_box.get() + "_"
+                + use_date + ".xlsx", sheet_name='PBS_Line_List__Merged', index=False)
 
         # Treatment line list validation
         else:
@@ -2457,6 +2490,7 @@ def run_main_app(event):
                                                 f"7. Total number of inconsistent 'Sex' and 'KP-Type' are {count_kptype_inconsistent} (e.g a 'Male' whose KP-Type is 'FSW').""\n"
                                                 f"8. Total number of 'Active' and 'Inactive' clients without or incomplete phone number are {count_no_phone_no}.""\n"
                                                 f"9. Total number of facilities affected by line list date alteration are {count_altered_list_parameter}.""\n"
+                                                f"{fac}""\n"
                                                 "\n"
                                                 "Click Yes to continue and No to cancel.")
             # If only IP and State are select
